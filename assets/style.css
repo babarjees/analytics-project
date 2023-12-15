@@ -10,3 +10,40 @@
     font-weight: 600;
     line-height: normal;
 }
+.q-btn{
+    background-color: #3A506B !important;
+    font-size:18px;
+    border: none;
+    font-family: Inter;
+    padding: 16px 40px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-right: 21px;
+}
+.q-btn:hover{
+    background-color:#5BC0BE !important;
+    color: #1C2541 !important;
+    transition:ease-in-out
+}
+.container{
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .question{
+    font-size: 32px;
+   }
+   .container .col-12{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   }
+   .q-btn{
+    margin:0 !important ;
+   }
+  }
+  
